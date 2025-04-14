@@ -17,7 +17,7 @@ jobs:
 
       - name: Install yq
         run: |
-          snap install yq
+          sudo snap install yq
 
       - name: Fetch upstream changes
         run: |
